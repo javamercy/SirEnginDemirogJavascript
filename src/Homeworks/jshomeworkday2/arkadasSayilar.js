@@ -22,7 +22,10 @@ function isBuddyNumbers(number1, number2) {
     if (total1 == number2 && total2 == number1) {
 
         console.log(number1, number2, "arkadaş sayılardır");
+    } else {
+        console.log(number1, number1, "arkadaş sayılar değildir.")
     }
 }
 
-isBuddyNumbers(220, 284);
+
+isBuddyNumbers(17296, 18416);

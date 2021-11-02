@@ -1,5 +1,5 @@
-for (let i = 1; i <= 1000; i++) {
-    let perfectNumbers = [];
+for (let i = 1; i <= 10000; i++) {
+
     let sum = 0;
     let number = i;
 
