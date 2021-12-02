@@ -13,7 +13,7 @@ export default class UserService {
     load() {
         for (const user of users) {
 
-            switch (user.type) {
+            switch (user["type"]) {
                 case "customer":
                     if (!this.checkCustomerValidityForErrors(user)) {
                         this.customers.push(user);
@@ -45,7 +45,7 @@ export default class UserService {
             }
         }
 
-        if (Number.isNaN(Number.parseInt(user.age))) {
+        if (Number.isNaN(Number.parseInt(user["age"]))) {
             hasErrors = true;
             this.errors.push(new DataError(`Validation problem. ${user.age} is not a number`));
         }

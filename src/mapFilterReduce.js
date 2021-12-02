@@ -26,24 +26,7 @@ console.log("QUANTITY OVER 10 :", quantityOver10);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Single Page Application => Angular, React, Vue
 
 //*******************************************************************************
 

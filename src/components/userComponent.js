@@ -34,7 +34,8 @@ console.log("-----------------------------------");
 userService.load();
 
 let customerToAdd = new Customer(6, "Seda", "Yılmaz", "Ankara", "fhwheewq");
-customerToAdd.type = "customer";
+customerToAdd["type"] = "customer";
+console.log(customerToAdd);
 userService.add(customerToAdd);
 console.log(userService.customers);
 console.log(userService.employees);
