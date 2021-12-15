@@ -7,9 +7,9 @@ export default class UserService {
         this.employees = [];
         this.customers = [];
         this.errors = [];
-        this.loggerService = loggerService;
+        this.loggerService = loggerService; 
     }
-
+ 
     load() {
         for (const user of users) {
 
